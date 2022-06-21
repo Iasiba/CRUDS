@@ -1,0 +1,98 @@
+* {
+  box-sizing : border-box;
+  margin     : 0;
+  padding    : 0;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-start;
+
+  background-color: rgb(254, 250, 245);
+}
+.card{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  
+  flex-wrap: wrap;
+  width: 300px;
+  height: 100px;
+  box-shadow: 1px 1px 3px #0005;
+  align-items: center;
+  font-size: small;
+  padding: 5px;
+}
+.userinfo{
+  width: 93%;
+}
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 20px;
+  height: 20px;
+  
+}
+ul{
+  list-style: none;
+}
+
+form{
+  border: none;
+ 
+}
+form>div{
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+form>div>input{
+  border: none;
+  border-radius: 5px;
+  border:2px solid rgba(216, 210, 174, 0.2) ;
+}
+form>button{
+  width: 50px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.Cards{
+
+  width: 90%;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+button{
+  background-color: rgb(248, 252, 254);
+  border: none;
+  box-shadow: 1px 1px 1px #0003;
+  color: blue;
+  border-radius: 2px;
+}
+div>input{
+  width: 210px;
+}
+.name>input{
+  width: 100px;
+}
+i{
+  font-size: 20px;
+}

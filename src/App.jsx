@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import './App.css'
-import Card from './components/card'
+import Card from './components/Card'
 import UseData from './Hook/UseData.js'
 import { useForm } from 'react-hook-form'
 import Form from './components/Form.jsx'
